@@ -1,0 +1,25 @@
+power tab
+    - tab width = 18.796
+    - spacing = 4.064
+    - depth = 1.6
+    
+programming
+    - header on side of each ESC
+    - 5 pins
+    
+
+
+current draw:
+per module: 
+    - 12V, 30mA
+    - 5V (to get 12V), 150mA
+    - 5V for microcontroller, 100mA
+    - total: 5V, 250mA
+
+all 3 modules:
+    - 12V, 90mA
+    - 5V, 750mA
+
+between ESC power and control boards = 6mm
+between consecutive ESC sets = 18mm ???
+
