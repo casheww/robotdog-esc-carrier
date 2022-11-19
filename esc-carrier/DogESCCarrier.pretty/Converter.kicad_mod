@@ -2,7 +2,7 @@
   (layer "F.Cu")
   (tedit 0)
   (attr smd)
-  (fp_text reference "REF**" (at 0 -14.732 unlocked) (layer "F.SilkS")
+  (fp_text reference "REF**" (at 0 -11.557 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 0c2d8621-2394-4dd4-a127-046bb8c210b3)
   )
@@ -10,19 +10,19 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 3031b42c-5ff7-4ead-8ccf-62742cbc3955)
   )
-  (fp_text user "OUT+" (at 26.924 -10.16 unlocked) (layer "F.SilkS")
+  (fp_text user "OUT+" (at 26.797 -6.804 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 10bd4b27-25ba-41c0-9b73-89c684aa17dc)
   )
-  (fp_text user "OUT-" (at 26.924 5.08 unlocked) (layer "F.SilkS")
+  (fp_text user "OUT-" (at 26.543 6.724 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 39e78075-9907-49f7-b2a3-cb4cbe299a28)
   )
-  (fp_text user "IN-" (at -26.924 5.08) (layer "F.SilkS")
+  (fp_text user "IN-" (at -26.797 6.724) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 5425862b-6ad2-440d-869c-2d1d78dd4a85)
   )
-  (fp_text user "IN+" (at -26.924 -9.906) (layer "F.SilkS")
+  (fp_text user "IN+" (at -26.797 -6.55) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 59b9af68-89a7-4790-acdd-0698691d316c)
   )
@@ -34,10 +34,34 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp e3447120-15e1-4d38-865d-c5517b7c614f)
   )
-  (fp_rect (start -23.876 -13.93) (end 23.876 8.93) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 2b84906a-9d3b-4e3a-8ecf-5b3f0053569a))
-  (fp_rect (start -23.876 -13.93) (end 23.876 8.93) (layer "Margin") (width 0.12) (fill none) (tstamp cf7d8cb2-2e41-42a1-8648-25dd11107484))
-  (pad "1" smd roundrect (at -26.924 -12.5) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1c445081-dc85-43b2-bd53-e6bd73be5a22))
-  (pad "2" smd roundrect (at -26.924 7.5) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 94c67a95-7285-481d-9c5b-45a3b4b1fdd1))
-  (pad "3" smd roundrect (at 27.178 7.5) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 10352363-1244-47e9-a458-939475abb653))
-  (pad "4" smd roundrect (at 26.924 -12.5) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a850d80d-acd1-4e25-af6b-8ffe2c502299))
+  (fp_rect (start -23.876 -10.541) (end 23.876 10.541) (layer "F.SilkS") (width 0.12) (fill none) (tstamp 2b84906a-9d3b-4e3a-8ecf-5b3f0053569a))
+  (fp_rect (start -29.718 -10.795) (end 29.718 10.795) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp c4b426e0-2d5f-448e-b4be-a7be53aeee05))
+  (pad "1" smd roundrect (at -26.797 -9.144) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 1c445081-dc85-43b2-bd53-e6bd73be5a22))
+  (pad "2" smd roundrect (at -26.797 9.144) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 94c67a95-7285-481d-9c5b-45a3b4b1fdd1))
+  (pad "3" smd roundrect (at 26.797 9.144) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp 10352363-1244-47e9-a458-939475abb653))
+  (pad "4" smd roundrect (at 26.797 -9.144) (size 5 3) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25) (tstamp a850d80d-acd1-4e25-af6b-8ffe2c502299))
+  (group "" (id 1ac51615-20d9-4b30-b9fa-9e865f31c33e)
+    (members
+      10352363-1244-47e9-a458-939475abb653
+      39e78075-9907-49f7-b2a3-cb4cbe299a28
+    )
+  )
+  (group "" (id 62a31013-1ad0-439b-a5ef-f5bcd9c47d6f)
+    (members
+      1c445081-dc85-43b2-bd53-e6bd73be5a22
+      59b9af68-89a7-4790-acdd-0698691d316c
+    )
+  )
+  (group "" (id b392bb1c-191d-4509-b6d1-756200509738)
+    (members
+      10bd4b27-25ba-41c0-9b73-89c684aa17dc
+      a850d80d-acd1-4e25-af6b-8ffe2c502299
+    )
+  )
+  (group "" (id e16386c5-6086-4645-9271-b6a1b6bb02e9)
+    (members
+      5425862b-6ad2-440d-869c-2d1d78dd4a85
+      94c67a95-7285-481d-9c5b-45a3b4b1fdd1
+    )
+  )
 )
