@@ -23,3 +23,6 @@ all 3 modules:
 between ESC power and control boards = 6mm
 between consecutive ESC sets = 18mm ???
 
+
+
+
