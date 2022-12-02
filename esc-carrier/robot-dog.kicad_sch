@@ -2047,7 +2047,7 @@
     (uuid 53116ff1-1454-4333-af0f-ed6e89f37d86)
     (property "Reference" "J2" (id 0) (at 157.48 33.02 90))
     (property "Value" "Conn_01x04" (id 1) (at 157.48 35.56 90))
-    (property "Footprint" "DogESCCarrier:VoltageConverter1" (id 2) (at 156.21 39.37 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 156.21 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 156.21 39.37 0)
@@ -2175,7 +2175,7 @@
     (uuid 6c7d5f3f-36e7-4beb-b31c-94967dd0ddb5)
     (property "Reference" "J3" (id 0) (at 177.8 33.02 90))
     (property "Value" "Conn_01x04" (id 1) (at 177.8 35.56 90))
-    (property "Footprint" "DogESCCarrier:VoltageConverter1" (id 2) (at 176.53 39.37 0)
+    (property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" (id 2) (at 176.53 39.37 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 176.53 39.37 0)
@@ -2903,10 +2903,10 @@
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "Connector_AMASS:AMASS_XT60-M_1x02_P7.20mm_Vertical")
     )
     (path "/53116ff1-1454-4333-af0f-ed6e89f37d86"
-      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "DogESCCarrier:VoltageConverter1")
+      (reference "J2") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/6c7d5f3f-36e7-4beb-b31c-94967dd0ddb5"
-      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "DogESCCarrier:VoltageConverter1")
+      (reference "J3") (unit 1) (value "Conn_01x04") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical")
     )
     (path "/b23cbf9a-af95-4260-8771-5f5618ec4148"
       (reference "J4") (unit 1) (value "Conn_01x03") (footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical")
