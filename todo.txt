@@ -1,0 +1,3 @@
+- power rails to left
+- 0 ohm resistors offset from control boards
+- power tab conenction thing
